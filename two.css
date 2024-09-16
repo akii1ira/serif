@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dela+Gothic+One&family=Fascinate+Inline&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Khand:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nerko+One&family=Noto+Sans+JP:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Ribeye+Marrow&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Mono+One&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dela+Gothic+One&family=Fascinate+Inline&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Khand:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nerko+One&family=Noto+Sans+JP:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Ribeye+Marrow&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Mono+One&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+}
+.container{
+    font-family: "Kanit", sans-serif;    
+    padding-right: 30px;
+    background-color: #f6fff8;
+    height: 310px;
+    width: 600px;
+    border-radius: 10px ;
+    border: 10px solid #fff;
+    display: flex;
+    flex-direction: row;
+    gap: 1.1em;
+}
+.box{
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1em;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+span{
+   font-size: 30px;
+}
+.text{
+    font-size: 17px;
+}
+p{
+  
+    font-size: 10px;
+}
+h4{
+        
+    font-size: 11px;
+
+}
+button{
+    margin-top: 20px;
+    padding-left: 0;
+    margin-left: 1px;
+    text-align: center;
+    background-color: #90a955;
+    padding: 9px;
+    border-radius: 7px ;
+    color: #fff;
+}
